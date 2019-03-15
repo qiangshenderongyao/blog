@@ -19,3 +19,4 @@ $router->get('/info',function(){
 });
 $router->post('/login','User\UserController@login');
 $router->post('/Center','User\UserController@Center');
+$router->get('/fangshua','User\UserController@fangshua');
